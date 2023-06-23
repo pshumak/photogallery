@@ -10,17 +10,19 @@
         <header>
             <h1>TK Photography</h1>
             <nav> 
-                <li><a href="#">About</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>    
             </nav>   
         </header>
         <main>
             <section class="body_wrapper">
                 <section class="about">
                     <h2>About</h2>
-                <p>Hello! 
-                I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p> 
+                <p>Hello!<p></p> 
+                <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p> 
                 </section>
                 <section class="gallery_container">
                     <h2>Gallery</h2>
@@ -29,74 +31,59 @@
                     <section class="gallery">
                         <figure>
                             <img src="images/Chile.png" alt="chile">
-                            <figcaption>Chile, 2001</figcaption>
+                            <figcaption class="chile_img_caption">Chile, 2001</figcaption>
                         </figure>
                         <figure>
                             <img src="images/Guatemala.png" alt="Guatemala">
-                            <figcaption>Guatemala, 1997</figcaption> 
+                            <figcaption class="guatemala_img_caption">Guatemala, 1997</figcaption> 
                         </figure>
                         <figure>
                             <img src="images/Hawaii.png" alt="Hawaii">
-                            <figcaption>Hawaii, 2010</figcaption>
+                            <figcaption class="hawaii_img_caption">Hawaii, 2010</figcaption>
                         </figure>
                         <figure>
                             <img src="images/Iran.png" alt="Iran">
-                            <figcaption>Iran, 1999</figcaption>
+                            <figcaption class="Iran_img_caption">Iran, 1999</figcaption>
                         </figure>
                         <figure>
                             <img src="images/Ireland.png" alt="Ireland">
-                            <figcaption>Ireland, 2012</figcaption>
+                            <figcaption class="Ireland_img_caption">Ireland, 2012</figcaption>
                         </figure>
                         <figure>
                             <img src="images/Italy.png" alt="Italy">
-                            <figcaption>Italy, 2015</figcaption>
+                            <figcaption class="Italy_img_caption">Italy, 2015</figcaption>
                         </figure>
                         <figure>
                             <img src="images/Moab-Desert.png" alt="Moab desert">
-                            <figcaption>Moab Desert, 2020</figcaption>
+                            <figcaption class="Moab_desert_img_caption">Moab Desert, 2020</figcaption>
                         </figure>
                         <figure>
                             <img src="images/Rocky-Mountains.png" alt="Rocky Mountains">
-                            <figcaption>Rocky Mountains, 2009</figcaption>
+                            <figcaption class="Rocky_Mountains_img_caption">Rocky Mountains, 2009</figcaption>
                         </figure>
                         <figure>
                             <img src="images/Switzerland.png" alt="Switzerland">
-                            <figcaption>Switzerland, 2014</figcaption>
+                            <figcaption class="Switzerland_img_caption">Switzerland, 2014</figcaption>
                         </figure>
                         <figure>
                             <img src="images/UK.png" alt="UK">
-                            <figcaption>UK, 2005</figcaption>
+                            <figcaption class="UK_img_caption">UK, 2005</figcaption>
                         </figure>
                         <figure>
                             <img src="images/USA.png" alt="USA">
-                            <figcaption>USA, 2021</figcaption>
+                            <figcaption class="USA_img_caption">USA, 2021</figcaption>
                         </figure>                  
                         <figure>
                             <img src="images/Wyoming.png" alt="Wyoming">
-                            <figcaption>Wyoming, 2021</figcaption>
+                            <figcaption class="Wyoming_img_caption">Wyoming, 2021</figcaption>
                         </figure>
                     </section>
                 </section>
-
-                
-                
-
-                
-
-                
-
-               
-               
-
-                
-
-                
-
             </section>
 
                 <section class="contact">
                     <h2>Contact</h2>
-                    Please fill out this form and I’ll connect with you soon.
+                    <p>Please fill out this form and I’ll connect with you soon.</p>
 
                     <section class="form">
                         <form action="action_page.php"> 
@@ -109,7 +96,7 @@
                             <input type="email" id="email" name="email" placeholder="Enter your email address">
 
                             <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="What can I help you with?"></textarea>
+                            <textarea id="message" rows="1" name="message" placeholder="What can I help you with?"></textarea>
                             
                             <input type="submit" value="Submit">
 

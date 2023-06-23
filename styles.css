@@ -9,9 +9,6 @@ html {
 
 body {
     width: 80%;
-    /*max-width: 1024px;
-    min-width: 800px;*/
-    /*background-color: #ffffff;*/
     margin: 0 auto;
     padding: 10px;
 }
@@ -32,21 +29,44 @@ img {
     max-width: 100%;
 }
 figure {
-    margin: 0;
+    margin: 1%;
+    display: grid;
+    position: relative;
     
 }
 
-.form {
-   /* display: grid;
-    grid-template-columns: 1fr; */
+figcaption {
+    justify-self: center;
+    position: absolute;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
 }
 
+.chile_img_caption, .hawaii_img_caption, .Moab_desert_img_caption {
+    align-self: end;
+    color:#ffffff;
+
+}
+
+.Italy_img_caption {
+    align-self: end;
+}
+
+.guatemala_img_caption, .Wyoming_img_caption {
+    color: #ffffff;
+}
+
+
 form {
-    /*display: grid;
-    grid-template-columns: 1fr;*/
     width: 80%;
-    /*justify-items: left;*/
     margin: 0 auto;
+    text-transform: uppercase;
+}
+
+::placeholder {
+    text-transform: uppercase;
+    
 }
 
 ul {
@@ -55,6 +75,7 @@ ul {
 
 li {
     display: inline;
+    padding-left: 1%;
     
 }
 
@@ -86,20 +107,18 @@ h1 {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
+    padding: 1%;
+    margin-top: -10px;
 }
 
 h2 {
     font-size: 2em;
+    text-transform: uppercase;
 }
 
 .contact {
     color:#ffffff;
 }
-
-/*.gallery_container h2 {
-    text-align: center;
-
-} */
 
 h2 {
     text-align: center;
@@ -109,8 +128,6 @@ nav {
     margin: 0 auto;
     width: 100%;
     text-align: right;
-   /* position: relative;
-    /*left: 34%;*/
     display: inline-block;
 
 
@@ -120,8 +137,8 @@ footer {
     color: #ffffff;
     position: relative;
     margin: 0 auto;
-    width: 33%;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #name, #email, #message {
@@ -129,17 +146,20 @@ footer {
 }
 
 .contact {
-   /* margin: 0 auto;
-    width: 80%;*/
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
 }
 
 label {
     display: block;
-    padding: 12px 12px 12px 0;
+    padding: 2% 0 0 1%;
+    
 }
 
 input {
     display: block;
+    text-indent: 1%;
 }
 
 input[type=submit] {
@@ -172,11 +192,29 @@ input[type=submit] {
         margin: 0 auto;
     width: 100%;
     text-align: center;
-   /* position: relative;
-    /*left: 34%;*/
     display: inline-block;
+    }
+    h1 {
+        display: grid;
+        font-size: 184%;
+        justify-content: center;
     }
    
   }
 
+  .contact p {
+    justify-self: center;
+  }
+
+  textarea {
+    margin-bottom: 2%;
+    text-indent: 1%;
+
+  }
+
+  input[type="submit"] {
+    margin-bottom: 2%;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
   
